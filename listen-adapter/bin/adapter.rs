@@ -1,6 +1,6 @@
 use actix_cors::Cors;
 use actix_web::{middleware::Logger, web, App, HttpServer};
-use dotenv::dotenv;
+use dotenvy::dotenv;
 use tracing::info;
 
 use listen_adapter::{

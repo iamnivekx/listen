@@ -20,7 +20,7 @@ carbon-core = { git = "https://github.com/sevenlabs-hq/carbon", branch = "main",
 carbon-log-metrics = { git = "https://github.com/sevenlabs-hq/carbon", branch = "main", version = "0.4.0" }
 carbon-raydium-amm-v4-decoder = { git = "https://github.com/sevenlabs-hq/carbon", branch = "main", version = "0.4.0" }
 ctor = "0.2.9"
-dotenv = "0.15.0"
+dotenvy = "0.15.7"
 
 # need yellowstone protos compat
 solana-account-decoder = "=2.0.10"

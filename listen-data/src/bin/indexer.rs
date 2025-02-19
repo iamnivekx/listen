@@ -14,7 +14,7 @@ pub struct Args {}
 async fn main() -> Result<()> {
     tracing_subscriber::fmt().init();
     if std::env::var("IS_SYSTEMD_SERVICE").is_err() {
-        dotenv::dotenv().expect("Failed to load .env file");
+        dotenvy::dotenv().expect("Failed to load .env file");
     }
     info!("Starting geyser indexer...");
 
